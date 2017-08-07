@@ -22,7 +22,7 @@ parser.add_option("-n", "--num_rois", dest="num_rois",
 parser.add_option("--config_filename", dest="config_filename", help=
 				"Location to read the metadata related to the training (generated when training).",
 				default="config.pickle")
-parser.add_option("--network", dest="network", help="Base network to use. Supports vgg or resnet50.", default='resnet50')
+parser.add_option("--network", dest="network", help="Base network to use. Supports vgg or resnet50.", default='vgg')
 
 (options, args) = parser.parse_args()
 

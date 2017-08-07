@@ -91,3 +91,10 @@ ENV/
 # hdf5
 *.h5
 *.hdf5
+1.jpeg
+config.pickle
+data/
+data_2/
+scripts/
+test.txt
+test_data/
