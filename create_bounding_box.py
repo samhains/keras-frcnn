@@ -16,8 +16,8 @@ for c in classes:
 
     for image in images:
         fname = image_dir+image
-        img = scipy.misc.imread(fname)
         try:
+            img = scipy.misc.imread(fname)
             width, height, _ = img.shape
             if (width > MAX_WIDTH):
                 ratio = float(height)/width 
